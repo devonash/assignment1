@@ -19,7 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", sans-serif;
 }
 
 img {
@@ -31,6 +31,27 @@ figure {
     max-width: 100%;
     height: auto;
 }
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/skijumpbillboard.jpg);
+    background-color: light blue;
+    background-position: center center;
+    background-size: 100rem 45rem;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 5rem 0;
+    background-color: rgba(0, 255, 255, .2);
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: -.1rem;
+    text-transform: uppercase;
+    padding: 4rem 5%;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+    
 
 
 
