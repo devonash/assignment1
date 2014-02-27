@@ -22,20 +22,20 @@ html {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", sans-serif;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
+.masthead {
+    overflow: hidden;
+    background-color: black;
 }
 
-figure {
-    max-width: 100%;
-    height: auto;
+.logo {
+    height: 5rem;
+    width: auto;
+    margin: .8rem;
 }
 
 .billboard {
     overflow: hidden;
     background-image: url(../images/skijumpbillboard.jpg);
-    background-color: light blue;
     background-position: center center;
     background-size: 100rem 45rem;
     background-repeat: no-repeat;
@@ -46,12 +46,23 @@ h1 {
     background-color: rgba(0, 255, 255, .2);
     font-weight: normal;
     font-size: 3rem;
-    letter-spacing: -.1rem;
+    letter-spacing: -0.009rem;
     text-transform: uppercase;
     padding: 4rem 5%;
     font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
     
+img {
+	max-width: 100%;
+	display: block;
+}
+
+
 
 
 
