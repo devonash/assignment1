@@ -148,11 +148,11 @@ hr {
 footer {
     background-color: black;
     overflow: hidden;
-    box-shadow: .1rem .1rem .5rem .1rem rgba(0 , 0, 0, .4);
+    box-shadow: .1rem .1rem .5rem .1rem rgba(0 , 0, 0, .6);
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: .90rem;
     margin: 1rem 10rem 3rem 1rem;
     color: #ccc;
 }
@@ -164,6 +164,7 @@ footer a {
 figure {
     margin: 0 auto 1.5rem;
     width: 100%;
+    vertical-align: middle;
 }
 
 figcaption {
