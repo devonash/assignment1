@@ -25,12 +25,13 @@ html {
 .masthead {
     overflow: hidden;
     background-color: black;
+      box-shadow: .1rem .1rem .5rem .1rem rgba(0 , 0, 0, .4);
 }
 
 .logo {
     height: 5rem;
     width: auto;
-    margin: 1rem 1rem 1rem 2.5rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .billboard {
@@ -60,6 +61,36 @@ body {
 img {
 	max-width: 100%;
 	display: block;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1rem auto;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+blockquote p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 1rem
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 5rem;
+    color: grey;
+    float: left;
+    margin: .5rem 0 0 -2rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 5rem;
+    position: absolute;
+    color: grey;
+    margin: .6rem 0 0 .2rem;
 }
 
 article {
@@ -106,23 +137,37 @@ hr {
     border-color: #000;
 }
 
+.dropcap:first-letter {
+    font-size: 5.5rem;
+    font-weight: bold;
+    float: left;
+    margin: 1.7rem .5rem 1rem 0;
+    color: black;
+}
 
+footer {
+    background-color: black;
+    overflow: hidden;
+    box-shadow: .1rem .1rem .5rem .1rem rgba(0 , 0, 0, .4);
+}
 
+footer p {
+    font-size: 1rem;
+    margin: 1rem 10rem 3rem 1rem;
+    color: #ccc;
+}
 
+footer a {
+    color: #ccc;
+}   
 
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+figcaption {
+    font-size: .75rem;
+    padding: .5rem 2%;
+    background-color: rgba(0, 255, 255, 0.1);
+}
